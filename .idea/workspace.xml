@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e8979e9-5fdb-485e-ab3e-0e4ff5623990" name="Default Changelist" comment="" />
+    <list default="true" id="3e8979e9-5fdb-485e-ab3e-0e4ff5623990" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/FrontEnd/ServiceController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Views/front_end/Service/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Views/front_end/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Views/front_end/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Views/front_end/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Views/front_end/service.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +18,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
@@ -69,7 +78,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AppBundle/Views/front_end/Home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AppBundle/Views/front_end/Service" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,14 +88,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AppBundle/Controller/FrontEnd" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Controller" />
+      <recent name="$PROJECT_DIR$/src/AppBundle" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AppBundle/Views/front_end/Service" />
       <recent name="$PROJECT_DIR$/src/AppBundle/Views/front_end/Home" />
       <recent name="$PROJECT_DIR$/src/AppBundle/Views/front_end" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/AppBundle/Controller" />
-      <recent name="$PROJECT_DIR$/src/AppBundle/Controller/FrontEnd" />
-      <recent name="$PROJECT_DIR$/src/AppBundle" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -112,7 +122,9 @@
       <option name="presentableId" value="Default" />
       <updated>1575320568002</updated>
       <workItem from="1575320570045" duration="111000" />
-      <workItem from="1575320696818" duration="5553000" />
+      <workItem from="1575320696818" duration="5989000" />
+      <workItem from="1575436993245" duration="39000" />
+      <workItem from="1575919946499" duration="3382000" />
     </task>
     <servers />
   </component>
@@ -140,38 +152,38 @@
       <screen x="0" y="24" width="1920" height="1003" />
     </state>
     <state x="693" y="283" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.24.1920.1003@0.24.1920.1003" timestamp="1575323359654" />
-    <state width="1874" height="324" key="GridCell.Tab.0.bottom" timestamp="1575351681334">
+    <state width="1874" height="239" key="GridCell.Tab.0.bottom" timestamp="1575955667480">
       <screen x="0" y="24" width="1920" height="1003" />
     </state>
-    <state width="1874" height="324" key="GridCell.Tab.0.bottom/0.24.1920.1003@0.24.1920.1003" timestamp="1575351681334" />
-    <state width="1874" height="324" key="GridCell.Tab.0.center" timestamp="1575351681333">
+    <state width="1874" height="239" key="GridCell.Tab.0.bottom/0.24.1920.1003@0.24.1920.1003" timestamp="1575955667480" />
+    <state width="1874" height="239" key="GridCell.Tab.0.center" timestamp="1575955667479">
       <screen x="0" y="24" width="1920" height="1003" />
     </state>
-    <state width="1874" height="324" key="GridCell.Tab.0.center/0.24.1920.1003@0.24.1920.1003" timestamp="1575351681333" />
-    <state width="1874" height="324" key="GridCell.Tab.0.left" timestamp="1575351681332">
+    <state width="1874" height="239" key="GridCell.Tab.0.center/0.24.1920.1003@0.24.1920.1003" timestamp="1575955667479" />
+    <state width="1874" height="239" key="GridCell.Tab.0.left" timestamp="1575955667479">
       <screen x="0" y="24" width="1920" height="1003" />
     </state>
-    <state width="1874" height="324" key="GridCell.Tab.0.left/0.24.1920.1003@0.24.1920.1003" timestamp="1575351681332" />
-    <state width="1874" height="324" key="GridCell.Tab.0.right" timestamp="1575351681333">
+    <state width="1874" height="239" key="GridCell.Tab.0.left/0.24.1920.1003@0.24.1920.1003" timestamp="1575955667479" />
+    <state width="1874" height="239" key="GridCell.Tab.0.right" timestamp="1575955667480">
       <screen x="0" y="24" width="1920" height="1003" />
     </state>
-    <state width="1874" height="324" key="GridCell.Tab.0.right/0.24.1920.1003@0.24.1920.1003" timestamp="1575351681333" />
-    <state width="1874" height="324" key="GridCell.Tab.1.bottom" timestamp="1575351681336">
+    <state width="1874" height="239" key="GridCell.Tab.0.right/0.24.1920.1003@0.24.1920.1003" timestamp="1575955667480" />
+    <state width="1874" height="239" key="GridCell.Tab.1.bottom" timestamp="1575955667481">
       <screen x="0" y="24" width="1920" height="1003" />
     </state>
-    <state width="1874" height="324" key="GridCell.Tab.1.bottom/0.24.1920.1003@0.24.1920.1003" timestamp="1575351681336" />
-    <state width="1874" height="324" key="GridCell.Tab.1.center" timestamp="1575351681335">
+    <state width="1874" height="239" key="GridCell.Tab.1.bottom/0.24.1920.1003@0.24.1920.1003" timestamp="1575955667481" />
+    <state width="1874" height="239" key="GridCell.Tab.1.center" timestamp="1575955667481">
       <screen x="0" y="24" width="1920" height="1003" />
     </state>
-    <state width="1874" height="324" key="GridCell.Tab.1.center/0.24.1920.1003@0.24.1920.1003" timestamp="1575351681335" />
-    <state width="1874" height="324" key="GridCell.Tab.1.left" timestamp="1575351681334">
+    <state width="1874" height="239" key="GridCell.Tab.1.center/0.24.1920.1003@0.24.1920.1003" timestamp="1575955667481" />
+    <state width="1874" height="239" key="GridCell.Tab.1.left" timestamp="1575955667480">
       <screen x="0" y="24" width="1920" height="1003" />
     </state>
-    <state width="1874" height="324" key="GridCell.Tab.1.left/0.24.1920.1003@0.24.1920.1003" timestamp="1575351681334" />
-    <state width="1874" height="324" key="GridCell.Tab.1.right" timestamp="1575351681335">
+    <state width="1874" height="239" key="GridCell.Tab.1.left/0.24.1920.1003@0.24.1920.1003" timestamp="1575955667480" />
+    <state width="1874" height="239" key="GridCell.Tab.1.right" timestamp="1575955667481">
       <screen x="0" y="24" width="1920" height="1003" />
     </state>
-    <state width="1874" height="324" key="GridCell.Tab.1.right/0.24.1920.1003@0.24.1920.1003" timestamp="1575351681335" />
+    <state width="1874" height="239" key="GridCell.Tab.1.right/0.24.1920.1003@0.24.1920.1003" timestamp="1575955667481" />
     <state x="449" y="160" key="SettingsEditor" timestamp="1575349954816">
       <screen x="0" y="24" width="1920" height="1003" />
     </state>
